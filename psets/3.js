@@ -10,3 +10,7 @@ http://math2.org/math/geometry/circles.htm
 */
 
 // write your solution here...
+var vRadius = 10;
+var vPI = 3.141592;
+console.log("The circunference is: "+ 2*vRadius*vPI);
+console.log("The area is: "+vPI*vRadius*vRadius);
