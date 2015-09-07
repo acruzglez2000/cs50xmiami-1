@@ -11,3 +11,7 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+var vCelcius = 37;
+console.log(vCelcius + " oC " + (((vCelcius*9)/5)+32) + " oF");
+var vFahrenheit = 98.6;
+console.log(vFahrenheit + " oF " + (((vFahrenheit-32)*5)/9) + " oC");
