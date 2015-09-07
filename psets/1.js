@@ -12,4 +12,5 @@ Forgot how old someone is? Calculate it!
 // write your solution here...
 var vYear = 2015;
 var vBD = 1967;
-console.log("You are "+ (vYear - vBD) - 1 +"or " + vYear - vBD);
+var vege = vYear - vBD;
+console.log("You are " + (vege-1) +" or " + vege);
