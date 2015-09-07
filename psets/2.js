@@ -12,3 +12,7 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+var vAge = 47;
+var vMaxAge = 120;
+var vEstAmount = 1;
+console.log("You will need "+ ((vMaxAge-vAge)*365+vEstAmount)+" to last you until the ripe old of "+vMaxAge);
