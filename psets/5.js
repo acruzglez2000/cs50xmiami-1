@@ -9,7 +9,7 @@ For example:
   DrEvil(10): 10 dollars
   DrEvil(1000000): 1000000 dollars (pinky)
 */
-
+// Esto es una prueba
 function drEvil(amount) {
   // write your solution here...
   if (amount < 1000000 ) {
