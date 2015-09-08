@@ -10,8 +10,8 @@ http://www.mathsisfun.com/temperature-conversion.html
 - Convert it to celsius and output "NN°F is NN°C."
 */
 
-// write your solution here...
+/* write your solution here...*/
 var vCelcius = 37;
 console.log(vCelcius + " oC " + (((vCelcius*9)/5)+32) + " oF");
 var vFahrenheit = 98.6;
-console.log(vFahrenheit + " oF " + ((vFahrenheit-32)*5)/9 + " oC");
+console.log(vFahrenheit + " oF " + (((vFahrenheit-32)*5)/9) + " oC");
