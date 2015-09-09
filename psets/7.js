@@ -13,4 +13,16 @@ fixStart('babble'): 'ba**le'
 
 function fixStart(s) {
   // write your solution here...
+    var outS = s[0];
+    var j = s.length;
+    for (var i = 1; i<j; i++) {
+        if (s[i] === s[0]) {
+            outS = outS+"*";
+        } else {
+            outS = outS + s[i];
+        }
+    }
+    return outS;
 }
+
+console.log(fixStart("esto es una prueba de como debe quedar esta cadena"));
