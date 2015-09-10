@@ -16,6 +16,19 @@ For example:
 
 */
 
-function verbing(word) {
+var verbing = function(word) {
   // write your solution here...
-}
+  var vReturn;
+  if (word.length > 3) {
+    if (word.substring(word.length-3,word.length) !== "ing") {
+      vReturn=word+"ing";
+    } else {
+      vReturn=word+"ly";
+    }
+  } else {
+    vReturn=word;
+  }
+  return vReturn;
+};
+
+console.log(verbing("yoreamoring"));
