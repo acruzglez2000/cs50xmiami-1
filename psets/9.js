@@ -16,5 +16,16 @@ For example:
 */
 
 function notBad(sentence) {
-  // write your solution here...
+  var posNot=sentence.indexOf("not");
+  var posBad=sentence.indexOf("bad");
+  if ( posBad > 0 && posNot > 0) {
+    if (posBad > posNot) {
+      return sentence.replace(sentence.substring(posNot, posBad+3), "good");
+    } else {
+      return sentence;
+    }
+  }
+
 }
+
+console.log(notBad("Esto not esta tan bad not mentira"));
