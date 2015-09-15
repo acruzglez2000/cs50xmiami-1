@@ -10,5 +10,12 @@ Write a function named calculateSupply that:
 - Call that function three times, passing in different values each time.
 - Bonus: Accept floating point values for amount per day, and round the result to a round number.
 */
-
 // write your solution here...
+var vMaxAge = 120;
+
+var calculateSupply = function(vAge, amountByDay) {
+
+    console.log("You will need "+ ((vMaxAge-vAge)*365+ Math.round(amountByDay))+" to last you until the ripe old of "+vMaxAge);
+};
+
+console.log(calculateSupply(47, 2.5));
